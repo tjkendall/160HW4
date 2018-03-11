@@ -34,7 +34,7 @@ int findIndex(char *string)
         token = strtok(NULL, ",");
     }
     return -1;
-}
+}//finds the index of the name in the file
 
 int addTweeter(char *name){
     char* tweeter = strtok(name, "\"");
